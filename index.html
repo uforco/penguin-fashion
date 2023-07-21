@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panguin-Fashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg_hy_color">
+        <nav class="w-auto md:w-10/12 overflow-hidden m-auto shadow-lg shadow-orange-200 md:shadow-none">
+            <div class="flex flex-col md:flex-row py-4 lg:gap-x-52 items-center justify-between">
+                <div class="flex justify-between items-center w-10/12 md:w-2/4" >
+                    <img class="w-4/5 md:w-9/12" src="./icons/logo.png" alt="">
+                    <!-- mobile-icon -->
+                    <div class="block md:hidden">
+                        <div onclick="myFunction()" class="manu_color">
+                            <div id="on_icon_mobile">
+                                <i class=" text-3xl fa-solid fa-bars"></i>
+                            </div>
+                            <div id="off_icon_mobile">
+                                <i  class=" text-3xl fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- lg:manu -->
+                <div id="lg-manu" class="w-2/4 hidden md:block">
+                    <ul class="flex justify-between ">
+                        <li class="capitalize Roboto" ><a class="no-underline"href="">home</a></li>
+                        <li class="capitalize Roboto" ><a class="no-underline"href="">Product</a></li>
+                        <li class="capitalize Roboto" ><a class="no-underline"href="">About us</a></li>
+                        <li class="capitalize Roboto" ><a class="no-underline"href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <!-- mobile-manu -->
+                <div id="mobile_manu" class="mt-5 w-auto transition-all ease-in-out delay-300 overflow-hidden md:hidden">
+                    <ul class="flex flex-col items-center justify-center gap-5 py-4">
+                        <li class="capitalize Roboto text font-medium w-auto text-2xl items-center txt_bb_color Roboto hover:text-amber-400 " ><a class=" w-auto py-4 no-underline"href="">home</a></li>
+                        <li class="capitalize Roboto text font-medium w-auto text-2xl items-center txt_bb_color Roboto hover:text-amber-400 " ><a class=" w-auto py-4  no-underline"href="">Product</a></li>
+                        <li class="capitalize Roboto text font-medium w-auto text-2xl items-center txt_bb_color Roboto hover:text-amber-400 " ><a class=" w-auto py-4  no-underline"href="">About us</a></li>
+                        <li class="capitalize Roboto text font-medium w-auto text-2xl items-center txt_bb_color Roboto hover:text-amber-400 " ><a class=" w-auto py-4  no-underline"href="">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="w-10/12 overflow-hidden m-auto">
+            <div class="flex flex-col md:flex-row py-8 items-center justify-between">
+                <div class="text-left">
+                    <h1 class="text-6xl font-extrabold -tracking-tighter tex_byl_color Bebas_Neue">Be the Penguins</h1>
+                    <h2 class="text-6xl font-extrabold -tracking-tighter txt_bb_color Bebas_Neue py-4">of Winter</h2>
+                    <p class="Roboto w-8/12 text-base mb-5">Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry.
+                    </p>
+                    <button class="overflow-hidden rounded-md text-center text-white bg-gradient-to-t from-[#A4BC46] to-[#A4BC46] border-2 border-[#A4BC46] flex p-4 px-8 hover:border-[#A4BC46]"><img class="w-6 mr-2" src="/icons/shopping-cart 1.png" alt="">BUY NOW</button>
+                </div>
+                <div class="py-20 pb-5">
+                    <img src="./images/model.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- product-list -->
+        <div class="w-10/12 overflow-hidden m-auto">
+            <!-- W0Man Jacket -->
+            <div class="block py-6 my-8  overflow-hidden">
+                <div class="py-6">
+                    <h2 class="txt_bb_color Bebas_Neue text-5xl" >W0Man Jacket</h2>
+                </div>
+                <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center " >
+                    <!-- Jacket-1 -->
+                    <div class="p-5 rounded-2xl bg-slate-50 shadow-lg shadow-slate-300">
+                        <div class="bg-gray-300 p-4 rounded-lg">
+                            <img src="./images/jacket-1.png" alt="">
+                        </div>
+                        <h1 class="txt_bb_color text-xl Roboto pt-6 font-bold">Yellow Coat Jacket </h1>
+                        <p class="txt_bb_color py-3 Roboto font-normal"> Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.
+                        </p>
+                        <div class="flex py-2 items-center justify-between">
+                            <p class="text-2xl font-bold tex_byl_color Roboto" >$234</p>
+                            <button class="overflow-hidden rounded-md text-center text-white text-sm bg-gradient-to-t from-[#A4BC46] to-[#A4BC46] border-2 border-[#A4BC46] flex p-2 px-4 hover:border-[#A4BC46] Roboto"><img class="w-5 mr-2" src="/icons/shopping-cart 1.png" alt="">BUY NOW</button>
+                        </div>
+                    </div>
+                    <!-- Jacket-2 -->
+                    <div class="p-5 rounded-2xl bg-slate-50 shadow-lg shadow-slate-300">
+                        <div class="bg-gray-300 p-4 rounded-lg">
+                            <img src="./images/jacket-2.png" alt="">
+                        </div>
+                        <h1 class="txt_bb_color text-xl Roboto pt-6 font-bold">Yellow Coat Jacket </h1>
+                        <p class="txt_bb_color py-3 Roboto font-normal"> Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.
+                        </p>
+                        <div class="flex py-2 items-center justify-between">
+                            <p class="text-2xl font-bold tex_byl_color Roboto" >$234</p>
+                            <button class="overflow-hidden rounded-md text-center text-white text-sm bg-gradient-to-t from-[#A4BC46] to-[#A4BC46] border-2 border-[#A4BC46] flex p-2 px-4 hover:border-[#A4BC46] Roboto"><img class="w-5 mr-2" src="/icons/shopping-cart 1.png" alt="">BUY NOW</button>
+                        </div>
+                    </div>
+                    <!-- jacket-3 -->
+                    <div class="p-5 rounded-2xl bg-slate-50 shadow-lg shadow-slate-300">
+                        <div class="bg-gray-300 p-4 rounded-lg">
+                            <img src="./images/jacket-3.png" alt="">
+                        </div>
+                        <h1 class="txt_bb_color text-xl Roboto pt-6 font-bold">Yellow Coat Jacket </h1>
+                        <p class="txt_bb_color py-3 Roboto font-normal"> Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.
+                        </p>
+                        <div class="flex py-2 items-center justify-between">
+                            <p class="text-2xl font-bold tex_byl_color Roboto" >$234</p>
+                            <button class="overflow-hidden rounded-md text-center text-white text-sm bg-gradient-to-t from-[#A4BC46] to-[#A4BC46] border-2 border-[#A4BC46] flex p-2 px-4 hover:border-[#A4BC46] Roboto"><img class="w-5 mr-2" src="/icons/shopping-cart 1.png" alt="">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Man Jacket -->
+            <div class="block py-6 my-8  overflow-hidden">
+                <div class="py-6">
+                    <h2 class="txt_bb_color Bebas_Neue text-5xl" >Man Jacket</h2>
+                </div>
+                <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center " >
+                    <div class="p-5 rounded-2xl bg-slate-50 shadow-lg shadow-slate-300">
+                        <div class="bg-gray-300 p-4 rounded-lg">
+                            <img src="./images/jacket-4.png" alt="">
+                        </div>
+                        <h1 class="txt_bb_color text-xl Roboto pt-6 font-bold">Yellow Coat Jacket </h1>
+                        <p class="txt_bb_color py-3 Roboto font-normal"> Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.
+                        </p>
+                        <div class="flex py-2 items-center justify-between">
+                            <p class="text-2xl font-bold tex_byl_color Roboto" >$234</p>
+                            <button class="overflow-hidden rounded-md text-center text-white text-sm bg-gradient-to-t from-[#A4BC46] to-[#A4BC46] border-2 border-[#A4BC46] flex p-2 px-4 hover:border-[#A4BC46] Roboto"><img class="w-5 mr-2" src="/icons/shopping-cart 1.png" alt="">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="p-5 rounded-2xl bg-slate-50 shadow-lg shadow-slate-300">
+                        <div class="bg-gray-300 p-4 rounded-lg">
+                            <img src="./images/jacket-5.png" alt="">
+                        </div>
+                        <h1 class="txt_bb_color text-xl Roboto pt-6 font-bold">Yellow Coat Jacket </h1>
+                        <p class="txt_bb_color py-3 Roboto font-normal"> Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.
+                        </p>
+                        <div class="flex py-2 items-center justify-between">
+                            <p class="text-2xl font-bold tex_byl_color Roboto" >$234</p>
+                            <button class="overflow-hidden rounded-md text-center text-white text-sm bg-gradient-to-t from-[#A4BC46] to-[#A4BC46] border-2 border-[#A4BC46] flex p-2 px-4 hover:border-[#A4BC46] Roboto"><img class="w-5 mr-2" src="/icons/shopping-cart 1.png" alt="">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="p-5 rounded-2xl bg-slate-50 shadow-lg shadow-slate-300">
+                        <div class="bg-gray-300 p-4 rounded-lg">
+                            <img src="./images/jacket-6.png" alt="">
+                        </div>
+                        <h1 class="txt_bb_color text-xl Roboto pt-6 font-bold">Yellow Coat Jacket </h1>
+                        <p class="txt_bb_color py-3 Roboto font-normal"> Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.
+                        </p>
+                        <div class="flex py-2 items-center justify-between">
+                            <p class="text-2xl font-bold tex_byl_color Roboto" >$234</p>
+                            <button class="overflow-hidden rounded-md text-center text-white text-sm bg-gradient-to-t from-[#A4BC46] to-[#A4BC46] border-2 border-[#A4BC46] flex p-2 px-4 hover:border-[#A4BC46] Roboto"><img class="w-5 mr-2" src="/icons/shopping-cart 1.png" alt="">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Perfect Fit-back-sec -->
+        <section>
+            <div class="w-10/12 overflow-hidden m-auto" >
+                <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-y-3 md:gap-x-5 lg:gap-x-20 mb-36">
+                    <div class="flex flex-col gap-6">
+                        <div class="flex border-3 border-zinc-950 rounded-xl bg-slate-50 shadow-md shadow-slate-200 overflow-hidden gap-6 p-6">
+                            <div class="w-16" ><img src="./icons/house.png" alt=""></div>
+                            <div>
+                                <h2 class="roboto text-xl font-bold txt_bb_color" >Find the Perfect Fit</h2>
+                                <p class="roboto text-sm">Everybody is different, which is why we
+                                    offer styles for every body.</p>
+                            </div>
+                        </div>
+                        <div class="flex border-3 border-zinc-950 rounded-xl bg-slate-50 shadow-md shadow-slate-200 overflow-hidden gap-6 p-6">
+                            <div class="w-16"><img src="./icons/box.png" alt=""></div>
+                            <div>
+                                <h2 class="roboto text-xl font-bold txt_bb_color">Free Exchanges</h2>
+                                <p class="roboto text-sm">One of the many reasons you can shop
+                                    with peace of mind.</p>
+                            </div>
+                        </div>
+                        <div class="flex border-3 border-zinc-950 rounded-xl bg-slate-50 shadow-md shadow-slate-200 overflow-hidden gap-6 p-6">
+                            <div class="w-16"><img src="./icons/question.png" alt=""></div>
+                            <div>
+                                <h2 class="roboto text-xl font-bold txt_bb_color">Contact Our Seller</h2>
+                                <p class="roboto text-sm">They are here to help you. That's quite 
+                                    literally what we pay them for.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div >
+                        <img class="w-auto" src="./images/shopping.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <footer>
+
+    </footer> -->
+    <script src="https://kit.fontawesome.com/0d64d01a24.js" crossorigin="anonymous"></script>
+    <!-- mobile-manu-funtion -->
+    <script src="./custom.js"></script>
+</body>
+</html>

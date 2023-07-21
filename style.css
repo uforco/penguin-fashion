@@ -1,0 +1,39 @@
+/* Google-Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+.Bebas_Neue{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+/* background color */
+.bg_hy_color{
+    background-color: #fff8E5;
+}
+.bg_begoni_l{
+    background-color: #363958;
+}
+/* text color */
+.tex_byl_color{
+    color: #FABE4C;
+}
+.txt_bb_color{
+    color: #363958;
+}
+.manu_color{
+    color: #A4BC46;
+}
+.mybolep{
+    display: none;
+    background-color: #4400ff;
+}
+.mybolep{
+    display: block;
+    background-color: #4400ff;
+}
+#off_icon_mobile{
+    display: none;
+}
+#mobile_manu{
+    display: none;
+}
